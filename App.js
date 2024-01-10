@@ -12,6 +12,7 @@ import ShowSoftInputOnFocus from './src/ShowSoftInputOnFocus';
 import Validation from './src/Validation';
 import {PromptInput} from './src/Packages/PromptInput';
 import AnimatedOtpInput from './src/Packages/AnimatedOtpInput';
+import IntlPhonefield from './src/Packages/IntPhoneField';
 
 export default function App() {
   return (
@@ -27,7 +28,8 @@ export default function App() {
       {/* <ShowSoftInputOnFocus /> */}
       {/* <Validation /> */}
       {/* <PromptInput /> */}
-      <AnimatedOtpInput />
+      {/* <AnimatedOtpInput /> */}
+      <IntlPhonefield />
     </View>
   );
 }
