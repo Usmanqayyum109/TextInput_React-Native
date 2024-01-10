@@ -10,7 +10,8 @@ import Selection from './src/Selection';
 import SelectTextOnFocus from './src/SelectTextOnFocus';
 import ShowSoftInputOnFocus from './src/ShowSoftInputOnFocus';
 import Validation from './src/Validation';
-import {PromptInput} from './src/PromptInput';
+import {PromptInput} from './src/Packages/PromptInput';
+import AnimatedOtpInput from './src/Packages/AnimatedOtpInput';
 
 export default function App() {
   return (
@@ -25,7 +26,8 @@ export default function App() {
       {/* <SelectTextOnFocus /> */}
       {/* <ShowSoftInputOnFocus /> */}
       {/* <Validation /> */}
-      <PromptInput />
+      {/* <PromptInput /> */}
+      <AnimatedOtpInput />
     </View>
   );
 }
