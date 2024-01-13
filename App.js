@@ -13,6 +13,7 @@ import Validation from './src/Validation';
 import {PromptInput} from './src/Packages/PromptInput';
 import AnimatedOtpInput from './src/Packages/AnimatedOtpInput';
 import IntlPhonefield from './src/Packages/IntPhoneField';
+import Datefield from './src/Packages/DateField';
 
 export default function App() {
   return (
@@ -29,7 +30,8 @@ export default function App() {
       {/* <Validation /> */}
       {/* <PromptInput /> */}
       {/* <AnimatedOtpInput /> */}
-      <IntlPhonefield />
+      {/* <IntlPhonefield /> */}
+      <Datefield />
     </View>
   );
 }
